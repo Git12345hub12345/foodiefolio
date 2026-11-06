@@ -1,0 +1,86 @@
+body{
+    background-color:#f7edef;
+    text-align: center;
+    position: relative;
+    background-image: url("https://imgur.com/a/85H9Q5q");
+}
+
+h1{  
+    font-family: "Dancing Script", cursive;
+font-size: 80px;
+}
+
+h2{
+    background-color: #fbfbfb;
+    font-family: "Oleo Script", system-ui;
+font-size: 50px;
+font-weight: lighter;
+display: inline;
+border-style: solid;
+padding: 5px 20px 7px 18px ;
+border-radius: 50px;
+}
+
+.abc{
+    background-color: #fbfbfb;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+height: 40px;
+width: 380px;
+border-radius: 15px;
+}
+
+.usernamestyle{
+font-family: "Fredoka", sans-serif;
+margin-top: 50px;
+margin-left: 562px;
+text-align: left;
+font-size: 25px;
+}
+
+.emailstyle{
+font-family: "Fredoka", sans-serif;
+margin-top: 20px;
+margin-left: 562px;
+text-align: left;
+font-size: 25px;
+}
+
+.passwordstyle{
+font-family: "Fredoka", sans-serif;
+margin-top: 20px;
+margin-left: 562px;
+text-align: left;
+font-size: 25px;
+}
+
+.buttonstyle{
+background-color: #f7edef;
+position: relative;
+margin-top: 20px;
+left: 10px;
+padding: 5px;
+font-size: 20px;  
+border: none; 
+}
+
+.buttonstyle .hovimg{
+display: none;
+}
+
+.buttonstyle:hover .unhov{
+display: none;
+}
+
+.buttonstyle:hover .hovimg{
+display: inline-block;
+cursor: grab;
+}
+
+footer{
+margin-top: 20px;
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 7px 0;
+}

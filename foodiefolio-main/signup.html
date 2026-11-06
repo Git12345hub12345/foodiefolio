@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Honk&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Concert+One&family=Dancing+Script:wght@400..700&family=Honk&family=Kalam:wght@300;400;700&family=Sixtyfour&family=Yellowtail&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Concert+One&family=Dancing+Script:wght@400..700&family=Honk&family=Kalam:wght@300;400;700&family=Oleo+Script:wght@400;700&family=Sixtyfour&family=Yellowtail&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>
+        foodiefolio
+    </h1>
+    <h2>
+        Sign up
+    </h2>
+    <form action="signup.php" method="post">
+        <div class="usernamestyle">
+            Username:
+            <br> <input type="text" name="username" required class="abc">
+        </div>
+        <div class="emailstyle">
+            Email:
+            <br> <input type="email" name="email" required class="abc">
+        </div>
+        <div class="passwordstyle">
+            Password: 
+            <br><input type="password" name="password" required class="abc">
+            <input type="hidden" name="userid">
+        </div>
+        <button type="submit" name="Confirm" class="buttonstyle">
+            <img src="images/pizzuncut.png" alt="submitimage" class="unhov">
+            <img src="images/pizzcutt.png" alt="hoverimage" class="hovimg">
+        </button>
+    </form>
+    <footer>
+        <p>
+            &copy; 2024 foodiefolio
+        </p>
+    </footer>
+</body>
+</html>

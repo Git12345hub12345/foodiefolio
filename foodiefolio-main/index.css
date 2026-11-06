@@ -1,0 +1,322 @@
+.sabai{
+    display: flex;
+    position: relative;
+    bottom: 199px;
+}
+
+
+h1{
+    height: 150px;
+    margin: 0;
+    bottom: 50px;
+    position: relative;
+    background-color: #8EACCD;
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 20px;
+    opacity: 80%;
+}
+
+h4{
+    font-size: 25px;
+    color: #000000;
+    padding: 60px 120px 60px 100px;
+    position: relative;
+    bottom: 200px;
+    font-family: "Quicksand", sans-serif;
+    text-align: justify;
+    text-align: justify;
+    background-color:#8EACCD;
+    display: flex;
+    justify-content: center;
+    border-radius: 73px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 80%;
+    text-shadow: 2px 2px 5px white;
+}
+
+body {
+    background-image: url("https://i.pinimg.com/originals/ed/e1/56/ede1561d04935619e1205a778736a6e9.gif");
+    background-size: 130%;
+    font-family: Arial, sans-serif;
+}
+.blur-background {
+    backdrop-filter: blur(5px); /* Adjust the blur value as needed */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+}
+
+.options a{
+    font-family: "Josefin Sans", sans-serif;
+    background-color: azure;
+    border-style: solid;
+    border-color: #2f295f;
+    border-radius: 6px;
+    position: relative;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+    display: inline;
+    color: #333;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 80px;
+}
+
+.dropbtn {
+    background: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  #icon{
+    height: 75px;
+    width: 78px;
+    top: 34px;
+    position: relative;
+    margin-left: 40px;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background: transparent;
+  }
+  
+  .dropdown {
+    right: 0;
+    
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {
+    margin-top: 9px;
+    display: block;
+    border-radius: 9px;
+    padding-top: 6px;
+    text-align: center;
+    font-size: 19px;
+}
+
+.table th{
+    font-size: 23px;
+}
+
+
+.table a:link{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.table a:visited{
+    color: #333;
+}
+
+.table{
+    position: absolute;
+    margin: 30px;
+    background-color: white;
+    border-style: groove;
+    border-color: black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-width: 1.5px;
+    padding-left: 23px;
+    padding-right: 23px;
+    margin-left: 70px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 12px 0;
+}
+
+.title{
+    text-shadow: 2px 2px 5px #76ABAE;
+    font-family: "Dancing Script", cursive;
+    position: relative;
+    bottom: 217px;
+    font-size: 90px;
+    margin-top: 50px;
+    text-align: center;
+    background-color:#8EACCD ;
+    opacity: 80%;
+    margin-left: 530px;
+    margin-right: 530px;
+    border-radius: 70px;
+    text-shadow: 2px 2px 5px white;
+}
+
+.a{
+    background-color: #fff;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 2rem 2rem;
+}
+
+.a1{
+    display: inline-block;
+    flex-direction: row;
+    vertical-align: middle;
+}
+
+.a2{
+    font-size: 35px;
+    font-family: "Cabin", sans-serif;
+    display: inline-block;
+    text-align: left;
+    margin-right: 80px;
+    position: relative;
+    left: 104px;
+}
+
+#piz{
+    height: 300px;
+    width: 300px;
+}
+
+#cart{
+    position: relative;
+    top: 40px;
+}
+
+.buttonstyle{
+    margin: 10px;
+    background-color: rgb(244, 231, 231);
+    margin-top: 20px;
+    left: 585px;
+    padding: 5px;
+    font-size: 20px;  
+    border: none;
+}
+
+.buttonstyle:hover{
+    cursor: pointer;
+}
+
+
+
+
+.drop{
+    text-decoration: none;
+}
+
+.dropdown a:visited{
+    color: rgb(72, 119, 120);
+}
+
+.muffin{
+    display: flex;
+    position: relative;
+    height: 300px;
+    width: 300px;
+    margin-left: 600px;
+    bottom: 133px;
+}
+
+.butt{
+    background: transparent;
+    border: none;
+    
+}
+
+button .butt{
+    margin-top: 30px;
+}
+
+.seicon{
+    position: relative;
+    width: 78px;
+    height: 75px;
+    top: 46px;
+}
+
+.searchbutt{
+    touch-action: auto;
+    pointer-events: all;
+    opacity: 100;
+    height: 50px;
+    position: relative;
+    padding-right: 50px;
+    border-radius: 7px;
+    border-style: solid;
+    border-width: 0.8mm;
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    background-color: azure;
+    border-color: #2f295f;
+    padding: 2px;
+    top: 18px;
+    margin-left: 80px;
+}
+.seicon:hover{
+    cursor: pointer;
+}
+
+.recipe-thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recipe-thumbnail {
+    width: 200px; 
+    margin: 10px;
+    text-align: center;
+}
+
+.recipe-thumbnail img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.recipe-thumbnail h3 {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.recipe-thumbnail p {
+    font-size: 14px;
+}
+
+.recipe-thumbnail a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.recipe-thumbnail a:hover {
+    background-color: #0056b3;
+}

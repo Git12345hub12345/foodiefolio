@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="adminlog.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Honk&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Concert+One&family=Dancing+Script:wght@400..700&family=Honk&family=Kalam:wght@300;400;700&family=Sixtyfour&family=Yellowtail&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Concert+One&family=Dancing+Script:wght@400..700&family=Honk&family=Kalam:wght@300;400;700&family=Oleo+Script:wght@400;700&family=Sixtyfour&family=Yellowtail&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>
+        foodiefolio
+    </h1>
+    <h2>
+         Admin Login
+    </h2>
+    <form action="adminlog.php" method="post">
+        <div class="email-container">
+            Admin name: 
+        <br><input type="username" id="username" name="username" required class="def">
+        </div>
+        <div class="password-container">
+            Password: 
+            <br><input type="password" id="password" name="password" required class="def">
+            <span class="toggle-password" onclick="togglePasswordVisibility()">
+                Show
+            </span>
+        </div>
+        <div class="linktosignin">
+            <a href="adminsign.html">Sign up</a>
+        </div>
+
+        <button type="submit" name="Login" class="buttonstyle">
+            <img src="images/pizzuncut.png" alt="submitimage" class="unhov">
+            <img src="images/pizzcutt.png" alt="hoverimage" class="hovimg">
+        </button>
+    </form>
+    <footer>
+        <p>
+            &copy; 2024 foodiefolio
+        </p>
+    </footer>
+</body>
+</html>
+
+<script>
+    
+    function togglePasswordVisibility()  //bujyo hamile
+    {  
+        var passwordInput = document.getElementById('password');
+            var toggleButton = document.querySelector('.toggle-password');
+
+            if (passwordInput.type === 'password') {
+                passwordInput.type = 'text';
+                toggleButton.textContent = 'Hide';
+            } else {
+                passwordInput.type = 'password';
+                toggleButton.textContent = 'Show';
+            }
+    }
+</script>

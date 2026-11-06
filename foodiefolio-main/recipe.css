@@ -1,0 +1,72 @@
+body {
+    background-color: #f7edef;
+    padding-top: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.title img{
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+
+.title{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+h1{
+    font-family: "Dancing Script", cursive;
+    position: relative;
+    font-size: 90px;
+    bottom: 20px;
+    
+}
+
+.recipe-thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #c6def6;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 60px;
+}
+
+.recipe-thumbnail {
+    width: 200px; 
+    margin: 65px;
+    text-align: center;
+}
+
+.recipe-thumbnail img {
+    width: 130%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.recipe-thumbnail h3 {
+    font-family:"Poppins", sans-serif;
+    margin-top: 10px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.recipe-thumbnail p {
+    font-size: 14px;
+}
+
+.recipe-thumbnail a {
+    display: inline-block;
+    margin-top: 6px;
+    padding: 10px 15px;
+    background-color: #5e238c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.recipe-thumbnail a:hover {
+    background-color: #6b9ce6;
+}

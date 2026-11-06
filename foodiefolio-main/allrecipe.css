@@ -1,0 +1,48 @@
+body {
+    background-color: #f7edef;
+    padding-top: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.title img{
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+
+.title{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+h1{
+    font-family: "Dancing Script", cursive;
+    position: relative;
+    font-size: 90px;
+    bottom: 20px;
+    
+}
+
+.delicon{
+    width: 40px;
+    height: 40px;
+    padding-right: 60px;
+}
+
+.recipe-thumbnail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-style: inset;
+    margin: 10px 330px 2px 320px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 23px;
+    border-radius: 30px;
+}
+
+h3{
+    padding-left: 60px;
+}
